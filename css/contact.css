@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+margin:0%;
+padding:0%;
+background-color:#999;
+}
+
+#container {
+	width:70%;
+	min-height:700px;
+	margin:0px auto;
+	background-color:#fff;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+} 
+
+header {
+	width:100%;
+	max-height:99px;
+	margin:0%;
+	padding:0%;
+} 
+.heading {
+	width:100%;
+	height:auto;
+}
+
+nav {
+	width:100%;
+	min-height:37px;
+	background-color:#c1272f; 
+	margin:0%;
+	float:left;
+	cursor:pointer;
+}
+
+nav ul {
+	height:37px;
+	list-style-type:none;
+	display:block;
+	margin:0%; 
+}
+
+nav ul li {
+	text-align:center;
+	width:135px;
+	float:left;
+	padding-top:1%;
+}
+
+nav ul li a {
+	font-family: Myriad Pro, Calibri, Arial;
+	font-size:100%;
+	color:#FFF;
+	text-decoration:none
+}
+
+nav ul li a:hover {
+     background-color:#FFFFFF;
+	 color: #c1272f;
+	 }
+#main-section {
+	width:100%;
+	min-height:690px;
+	background-color: #FFF; 
+	float: left; 
+}
+
+#main-section h1 {
+	font-family:Calibri, Arial, sans-serif;
+	font-size: 110%;
+	color: #e43d46;
+	margin-top: 2.5%;
+	padding-left: 2%;
+}
+
+#main-section h2 {
+	font-family:Calibri, Arial, sans-serif;
+	font-size: 100%;
+	color: #018210;
+	padding-left: 2%;
+}
+
+#main-section p {
+	font-family:Calibri, Arial, sans-serif;
+	font-size: 90%;
+	color:#000000;
+	padding-left: 2%;
+	width: 90%;
+	margin-top: -0.5%;
+	text-align: justify;
+}
+
+#main-section p a { 
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#contact-form {
+	width: 100%;
+	min-height: 580px;
+	background-color:#fff;
+}
+
+
+footer {
+	clear:both;
+	width:100%;
+	min-height:60px;
+	border-top: 1px solid #000;
+	}
+
+footer ul { 
+    list-style-type: none;
+	display: block;
+	margin: 0%;
+	padding-top: 1%;
+	float:left;
+	padding-left:13%;
+	}
+	
+footer ul li { 
+    text-align: center;
+	width: 105px;
+	float:left;
+}
+
+footer ul li a {
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 80%;
+	text-decoration: none;
+	color: #c1272f;
+}
+footer h4 {
+clear:both;
+font-weight:normal;
+padding-left: 82%;
+font-size: 90%;
+font-family:Calibri, Arial, sans-serif;
+color: #c1272f;
+padding-top: 1%;
+}
+	
+	/******************** form styling ***************************/
+	
+	input[type=text] {
+		margin:1%;
+		width:25%;
+	}
+	
+	input=[type=checkbox] {
+	
+	}
+	textarea {
+		font-family:Calibri, Arial, sans-serif;
+		margin:2%;
+	}
+	
+	#submit {
+		margin-bottom: 1%;
+		margin-left:-22.5%;
+	}
+	
+	label {
+		padding-left:0.3%;
+		font-family:Calibri, Arial, sans-serif;
+		font-size:85%;
+		margin-left:2%;
+	}
+	
+	
+	
